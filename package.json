@@ -1,8 +1,8 @@
 {
-  "name": "language-arduino",
-  "version": "0.2.0",
-  "description": "Atom language support for Arduino",
-  "repository": "https://github.com/szechyjs/language-arduino",
+  "name": "language-spark",
+  "version": "0.3.0",
+  "description": "Atom language support for Spark Core",
+  "repository": "https://github.com/spark/language-spark",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

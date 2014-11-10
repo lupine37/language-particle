@@ -1,4 +1,4 @@
-'.source.arduino':
+'.source.spark':
   'Analog Read':
     'prefix': 'analogRead'
     'body': 'analogRead(${1:pin});$2'

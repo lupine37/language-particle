@@ -1,0 +1,40 @@
+'fileTypes': [
+  'ino'
+  'pde'
+  'cpp'
+]
+'name': 'Spark'
+'scopeName': 'source.spark'
+'patterns': [
+  {
+      'include': 'source.c++'
+  }
+  {
+    'match': '\\b(INT|DOUBLE|STRING|INPUT|OUTPUT|INPUT_PULLUP|INPUT_PULLDOWN|LOW|HIGH)\\b'
+    'name': 'constant.language.c'
+  }
+  {
+    'match': '\\b(PRIVATE|MY_DEVICES|SLEEP_MODE_DEEP|RISING|FALLING|CHANGE)\\b'
+    'name': 'constant.language.c'
+  }
+  {
+    'match': '\\b(AUTOMATIC|SEMI_AUTOMATIC|MANUAL|WEP|WPA|WPA2|MSBFIRST|LSBFIRST)\\b'
+    'name': 'constant.language.c'
+  }
+  {
+    'match': '\\b(D0|D1|D2|D3|D4|D5|D6|D7|A0|A1|A2|A3|A4|A5|A6|A7|DEC|OCT|BIN|HEX)\\b'
+    'name': 'constant.language.c'
+  }
+  {
+    'match': '\\b(SPI_CLOCK_DIV2|SPI_CLOCK_DIV4|SPI_CLOCK_DIV8|SPI_CLOCK_DIV16)\\b'
+    'name': 'constant.language.c'
+  }
+  {
+    'match': '\\b(SPI_CLOCK_DIV32|SPI_CLOCK_DIV64|SPI_CLOCK_DIV128|SPI_CLOCK_DIV256)\\b'
+    'name': 'constant.language.c'
+  }
+  {
+    'match': '\\b(SPI_MODE0|SPI_MODE1|SPI_MODE2|SPI_MODE3|CLOCK_SPEED_100KHZ|CLOCK_SPEED_400KHZ)\\b'
+    'name': 'constant.language.c'
+  }
+]
