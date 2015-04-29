@@ -1,6 +1,6 @@
 {
   "name": "language-spark",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Atom language support for Spark Core",
   "repository": "https://github.com/spark/language-spark",
   "license": "MIT",
