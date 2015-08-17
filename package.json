@@ -1,8 +1,8 @@
 {
-  "name": "language-spark",
+  "name": "language-particle",
   "version": "0.3.2",
-  "description": "Atom language support for Spark Core",
-  "repository": "https://github.com/spark/language-spark",
+  "description": "Atom language support for Particle devices",
+  "repository": "https://github.com/spark/language-particle",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

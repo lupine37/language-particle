@@ -3,8 +3,8 @@
   'pde'
   'cpp'
 ]
-'name': 'Spark'
-'scopeName': 'source.spark'
+'name': 'Particle'
+'scopeName': 'source.particle'
 'patterns': [
   {
       'include': 'source.cpp'
