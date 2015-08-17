@@ -1,6 +1,6 @@
 {
   "name": "language-particle",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Atom language support for Particle devices",
   "repository": "https://github.com/spark/language-particle",
   "license": "MIT",
