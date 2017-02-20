@@ -86,3 +86,33 @@
   'Tone':
     'prefix': 'tone'
     'body': 'tone(${1:pin}, ${2:frequency}, ${3:duration});$4'
+  'HIGH':
+    'prefix': 'HIGH'
+    'body': 'HIGH'
+  'LOW':
+    'prefix': 'LOW'
+    'body': 'LOW'
+  'INPUT':
+    'prefix': 'INPUT'
+    'body': 'INPUT'
+  'OUTPUT':
+    'prefix': 'OUTPUT'
+    'body': 'OUTPUT'
+  'INPUT_PULLUP':
+    'prefix': 'INPUT_PULLUP'
+    'body': 'INPUT_PULLUP'
+  'INPUT_PULLDOWN':
+    'prefix': 'INPUT_PULLDOWN'
+    'body': 'INPUT_PULLDOWN'
+  'Particle Function':
+    'prefix': 'Particle.function'
+    'body': 'Particle.function("${1:funcKey}", ${2:funcName});$3'
+  'Particle Variable':
+    'prefix': 'Particle.variable'
+    'body': 'Particle.variable("${1:varKey}", ${2:varName});$3'
+  'Particle Publish':
+    'prefix': 'Particle.publish'
+    'body': 'Particle.publish("${1:eventName}");$2'
+  'Particle Subscribe':
+    'prefix': 'Particle.subscribe'
+    'body': 'Particle.subscribe("${1:eventName}", ${2:myHandler});$3'
