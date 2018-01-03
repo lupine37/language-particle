@@ -2,7 +2,7 @@
   "name": "language-particle",
   "version": "0.3.5",
   "description": "Atom language support for Particle devices",
-  "repository": "https://github.com/spark/language-particle",
+  "repository": "https://github.com/particle-iot/language-particle",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
